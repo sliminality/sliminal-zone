@@ -481,7 +481,7 @@ async function savePage(
   allPages,
   feed
 ) {
-  const icon = favicon || (await saveEmojiFavicon("🪿"));
+  const icon = favicon || (await saveEmojiFavicon("🍄"));
 
   const footer = backlinks[id]
     ? `<footer><label>mentioned in</label><ul>${backlinks[id]
@@ -1096,7 +1096,7 @@ const main = async function main() {
     })
   );
 
-  const favicon = await saveEmojiFavicon("🪿");
+  const favicon = await saveEmojiFavicon("🍄");
   const feed = new Feed({
     title: "Sliminal Zone",
     description: "Slim's notes",
