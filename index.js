@@ -51,11 +51,11 @@ loadLanguages([
  */
 const settings = new (class Settings {
   get twitterHandle() {
-    return process.env.TWITTER_HANDLE || "jdan";
+    return process.env.TWITTER_HANDLE || "sliminality";
   }
 
   get ogImage() {
-    return process.env.OG_IMAGE || "https://notes.jordanscales.com/me.png";
+    return process.env.OG_IMAGE || "https://slim.computer/assets/img/headshot.jpg";
   }
 
   get baseUrl() {
@@ -338,7 +338,7 @@ async function textToHtml(pageId, text, allPages) {
         });
       } else {
         // rel="me" for mastodon
-        return "https://mastodon.xyz/@jordan" === text.text.link.url
+        return "https://types.pl/@sliminality" === text.text.link.url
           ? `<a rel="me" href="${text.text.link.url}">${content}</a>`
           : `<a href="${text.text.link.url}">${content}</a>`;
       }
@@ -481,7 +481,7 @@ async function savePage(
   allPages,
   feed
 ) {
-  const icon = favicon || (await saveEmojiFavicon("💡"));
+  const icon = favicon || (await saveEmojiFavicon("🪿"));
 
   const footer = backlinks[id]
     ? `<footer><label>mentioned in</label><ul>${backlinks[id]
@@ -508,7 +508,7 @@ async function savePage(
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://notes.jordanscales.com/feed.atom">
+      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://slim.computer/blug/feed.atom">
 
       <meta property="og:title" content="${title}" />
       <meta property="og:image" content="${metaImage}" />
@@ -557,9 +557,9 @@ async function savePage(
       content: body,
       author: [
         {
-          name: "Jordan Scales",
-          email: "me@jordanscales.com",
-          link: "https://jordanscales.com",
+          name: "Slim Lim",
+          email: "slim@sarahlim.com",
+          link: "https://slim.computer",
         },
       ],
       date: new Date(created),
@@ -1096,23 +1096,23 @@ const main = async function main() {
     })
   );
 
-  const favicon = await saveEmojiFavicon("👋");
+  const favicon = await saveEmojiFavicon("🪿");
   const feed = new Feed({
-    title: "notes.jordanscales.com",
-    description: "Jordan's working notes",
+    title: "Sliminal Zone",
+    description: "Slim's notes",
     id: settings.url("/"),
     link: settings.url(""),
     language: "en",
     image: settings.ogImage,
     favicon: settings.url(favicon),
-    copyright: "CC BY-NC 4.0 Jordan Scales",
+    copyright: "CC BY-NC 4.0 Slim Lim",
     feedLinks: {
       atom: settings.url("feed.atom"),
     },
     author: {
-      name: "Jordan Scales",
-      email: "me@jordanscales.com",
-      link: "https://jordanscales.com",
+      name: "Slim Lim",
+      email: "slim@sarahlim.com",
+      link: "https://slim.computer",
     },
   });
 
