@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://slim.computer/blug//</id>
+    <title>Sliminal Zone</title>
+    <updated>2024-06-20T03:31:50.144Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Slim Lim</name>
+        <email>slim@sarahlim.com</email>
+        <uri>https://slim.computer</uri>
+    </author>
+    <link rel="alternate" href="https://slim.computer/blug/"/>
+    <link rel="self" href="https://slim.computer/blug/feed.atom"/>
+    <subtitle>Slim's notes</subtitle>
+    <logo>https://slim.computer/assets/img/headshot24.jpg</logo>
+    <icon>https://slim.computer/blug/1f344.png</icon>
+    <rights>CC BY-NC 4.0 Slim Lim</rights>
+    <entry>
+        <title type="html"><![CDATA[Look mom I have a blog now]]></title>
+        <id>https://slim.computer/blug/finally.html</id>
+        <link href="https://slim.computer/blug/finally.html"/>
+        <updated>2024-06-20T01:21:00.000Z</updated>
+        <content type="html"><![CDATA[
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <title>Look mom I have a blog now</title>
+      <link rel="Shortcut Icon" type="image/x-icon" href="https://slim.computer/blug/1f344.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://slim.computer/blug/feed.atom">
+
+      <meta property="og:title" content="Look mom I have a blog now" />
+      <meta property="og:image" content="https://slim.computer/assets/img/headshot24.jpg" />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="sliminality" />
+      <meta name="twitter:title" content="Look mom I have a blog now" />
+
+      <link rel="stylesheet" href="https://slim.computer/blug/style.css">
+      <link rel="preload" href="https://slim.computer/blug/prism-coy.css" as="style">
+      <link rel="preload" href="https://slim.computer/blug/prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="https://slim.computer/blug/prism-coy.css">
+      <link rel="stylesheet" href=https://slim.computer/blug/katex.min.css>
+    </head>
+    <body>
+      <script>0</script>
+      <main class="p03239430">
+        <header>
+          <a href="https://slim.computer/blug/">Home</a>
+          <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
+        </header>
+        <h1>Look mom I have a blog now</h1>
+        <div class="text" id="b5e18bd1f">
+      On <a href="https://en.wikipedia.org/wiki/Juneteenth">19 June</a>, 2024 I <a href="https://twitter.com/sliminality/status/1803467195474641251">tweeted</a>:
+      <div class="children"></div>
+    </div>
+<blockquote>
+      <p>I swear to you all that by the end of today, I'll have a blog. I will not be waylaid by styling, or building Hakyll in a Nix environment on Apple Silicon, or writing my own static site generator. I will use Adobe Dreamweaver if I have to. Cyberbully me if I don't follow through</p>
+      
+    </blockquote>
+<div class="text" id="b75f5f976">
+      This website represents my follow-through. If you have complaints about the layout, typography, accessibility, bundle size, etc. please keep in mind that the alternative was Adobe Dreamweaver hosted by GoDaddy.
+      <div class="children"></div>
+    </div>
+<h2 id="why-are-you-like-this-">
+      <a href="#why-are-you-like-this-" class="link">🔗</a>
+      Why are you like this?
+    </h2>
+<div class="text" id="bf4b88687">
+      I have wanted a blog for <em>so long</em>. For years I’ve scattered my writings across the Web in completely inscrutable locations, wallowing in envy as my friends with the good blogs expressed themselves with rich technical content, beautiful styling, and readable URLs. 
+      <div class="children"></div>
+    </div>
+<div class="text" id="bbf21dd2f">
+      So why haven’t I made a blog? Because for someone like me, standing up a blog is one of the <em>most ontologically-fraught tasks of the modern era</em>:
+      <div class="children"></div>
+    </div>
+<ul id="bf8886857"><li id="bbf60ab0f">
+      <div class="list-item">
+        If you ask a normal person, “How should I represent a bunch of documents and render them on the internet for public consumption?” they will come up with a reasonable answer like <a href="https://substack.com/">Substack</a>, <a href="https://medium.com/">Medium</a>, <a href="https://wordpress.com/">WordPress</a>, <a href="https://ghost.org/">Ghost</a>, <a href="https://posthaven.com/">Posthaven</a>, <a href="https://www.notion.so/">Notion</a> (disclaimer: I work there), <a href="https://pages.github.com/">GitHub Pages</a>, <a href="https://gist.github.com/">GitHub Gists</a>, <a href="https://github.com/frankmcsherry/blog">GitHub repos</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://jaspervdj.be/hakyll/">Hakyll</a>, <a href="https://download.racket-lang.org/releases/8.1/doc/scribble/index.html">Scribble</a>, plaintext files on an HTTP server, or writing your own static site generator using <a href="https://pandoc.org/">pandoc</a> (disclaimer: I don’t work there but you’d be forgiven for thinking I do).
+      </div>
+      
+    </li>
+<li id="b02d76682">
+      <div class="list-item">
+        If you ask me the same question, I will open my mouth and an enormous stream of bats will come flying out, followed by the entire Internet Explorer 7 binary in UTF-16.
+      </div>
+      
+    </li></ul>
+<div class="text" id="be757502d">
+      And that is why I haven’t made a blog until today.
+      <div class="children"></div>
+    </div>
+<h2 id="what-did-you-end-up-using-">
+      <a href="#what-did-you-end-up-using-" class="link">🔗</a>
+      What did you end up using?
+    </h2>
+<div class="text" id="b2318fd07">
+      To get this blog up in one day (including writing all of the initial content), I have imposed the following rules to prevent yak-shaving:
+      <div class="children"></div>
+    </div>
+<ul id="b470aa715"><li id="b6d2fef1d">
+      <div class="list-item">
+        I write all my posts in production <a href="https://www.notion.so/">Notion</a>. <em>(While I’m using Notion as an off-the-shelf editor, I will concede this arguably violates the yak-shaving principle, since I </em><a href="https://x.com/NotionHQ/status/1270445764062228480"><em>built and shipped inline equations</em></a><em> expressly in preparation for my future blog. But that was in 2020, so the statute of limitations has expired.)</em>
+      </div>
+      
+    </li>
+<li id="b657ac46b">
+      <div class="list-item">
+        I generate a static site using <a href="https://github.com/jdan/notes">this framework</a> written by my friend and coworker <a href="https://jordanscales.com/">Jordan Scales</a>. I am not allowed to modify any of the code, except to comment out lines when something breaks, and update hard-coded metadata containing his name and email.
+      </div>
+      
+    </li>
+<li id="bac4afec1">
+      <div class="list-item">
+        I deploy the output directly to GitHub Pages. Eventually I will have a shell script to handle deploys, similar to the one I wrote for my <a href="https://slim.computer/">personal homepage</a>. For now, everything is manual.
+      </div>
+      
+    </li></ul>
+<h2 id="what-s-next-">
+      <a href="#what-s-next-" class="link">🔗</a>
+      What’s next?
+    </h2>
+<div class="text" id="b36db1ff6">
+      There are a lot of things I’d like to tweak about this blog, ranging from the design (typography, spacing, colors) to the build structure to adding support for more block types to rewriting everything in Rust. But since my overarching goal is simply to write more, even if it’s absolute brain slop, I’ll probably establish some inane rule like “1 post = 1 cosmetic improvement” to goad myself into compliance.
+      <div class="children"></div>
+    </div>
+<h2 id="thanks-to-our-platinum-sponsors">
+      <a href="#thanks-to-our-platinum-sponsors" class="link">🔗</a>
+      Thanks to our platinum sponsors
+    </h2>
+<ul id="bc97dbc13"><li id="b18cee4ce">
+      <div class="list-item">
+        <a href="https://jordanscales.com/">Jordan Scales</a> for the <a href="https://github.com/jdan/notes">static site generator</a> and providing high-quality telephone support
+      </div>
+      
+    </li>
+<li id="b2b15d687">
+      <div class="list-item">
+        <a href="https://tyoverby.com/">Ty Overby</a> for providing room, board, and motivation while I cut a ten-year procrastination habit in one day
+      </div>
+      
+    </li></ul><div class="text" id="b338ac5ac">
+      
+      <div class="children"></div>
+    </div>
+        <footer><label>mentioned in</label><ul><li><a href="https://slim.computer/blug/index.html" class="with-emoji">
+      <img class="emoji" alt="" src="https://slim.computer/blug/1f344.png">
+      Sliminal Zone</a></li></ul></footer>
+      </main>
+      <script>const stylesheet = /** @type {HTMLElement} */ (
+  document.getElementById("prism")
+);
+const toggleBtn = /** @type {HTMLElement} */ (
+  document.getElementById("toggle-btn")
+);
+
+/**
+ * Set the theme to either light or dark.
+ * @param {boolean} isDark
+ */
+function setTheme(isDark) {
+  if (isDark) {
+    localStorage.setItem("theme", "dark");
+    document.body.classList.add("dark");
+    toggleBtn.innerHTML = "☀️";
+    toggleBtn.setAttribute("aria-label", "enable light theme");
+    stylesheet.setAttribute("href", "/prism-tomorrow.css");
+  } else {
+    localStorage.setItem("theme", "light");
+    document.body.classList.remove("dark");
+    toggleBtn.innerHTML = "🌙";
+    toggleBtn.setAttribute("aria-label", "enable dark theme");
+    stylesheet.setAttribute("href", "/prism-coy.css");
+  }
+}
+
+function toggleTheme() {
+  if (localStorage.getItem("theme") === "dark") {
+    setTheme(false);
+  } else {
+    setTheme(true);
+  }
+}
+
+if (!localStorage.getItem("theme")) {
+  const osTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+  localStorage.setItem("theme", osTheme);
+}
+
+toggleBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  toggleTheme();
+});
+setTheme(localStorage.getItem("theme") === "dark");
+</script>
+    </body>
+    </html>
+  ]]></content>
+        <author>
+            <name>Slim Lim</name>
+            <email>slim@sarahlim.com</email>
+            <uri>https://slim.computer</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The unreasonable effectiveness of chaotic knowledge acquisition]]></title>
+        <id>https://slim.computer/blug/chaotic-learning.html</id>
+        <link href="https://slim.computer/blug/chaotic-learning.html"/>
+        <updated>2024-06-19T20:27:00.000Z</updated>
+        <content type="html"><![CDATA[
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <title>The unreasonable effectiveness of chaotic knowledge acquisition</title>
+      <link rel="Shortcut Icon" type="image/x-icon" href="https://slim.computer/blug/1f344.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://slim.computer/blug/feed.atom">
+
+      <meta property="og:title" content="The unreasonable effectiveness of chaotic knowledge acquisition" />
+      <meta property="og:image" content="https://slim.computer/assets/img/headshot24.jpg" />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="sliminality" />
+      <meta name="twitter:title" content="The unreasonable effectiveness of chaotic knowledge acquisition" />
+
+      <link rel="stylesheet" href="https://slim.computer/blug/style.css">
+      <link rel="preload" href="https://slim.computer/blug/prism-coy.css" as="style">
+      <link rel="preload" href="https://slim.computer/blug/prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="https://slim.computer/blug/prism-coy.css">
+      <link rel="stylesheet" href=https://slim.computer/blug/katex.min.css>
+    </head>
+    <body>
+      <script>0</script>
+      <main class="pf57ace81">
+        <header>
+          <a href="https://slim.computer/blug/">Home</a>
+          <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
+        </header>
+        <h1>The unreasonable effectiveness of chaotic knowledge acquisition</h1>
+        <div class="text" id="b23f11506">
+      I used to conceptualize learning as a rigid progression from inchoate concepts floating around in my head (visual: crazy heap indirection) to some deeper understanding, organized and schematized with all my other knowledge (visual: neat C-style enum representation). 
+      <div class="children"></div>
+    </div>
+<figure id="b360c3b84">
+      <img alt="Please ignore the fact that I haven’t written C in 7 years and only pretend to understand memory layout" src="https://slim.computer/blug/360c3b84-2b0f-43a9-bf26-8e3333109ed9.image.png">
+      <figcaption>Please ignore the fact that I haven’t written C in 7 years and only pretend to understand memory layout</figcaption>
+    </figure>
+<div class="text" id="be7fa6fa6">
+      This two-phase division arises repeatedly throughout my learning process:
+      <div class="children"></div>
+    </div>
+<ul id="b470aa715"><li id="b1cc592e0">
+      <div class="list-item">
+        <strong>In my notes:</strong> I have a “messy buffer” filled with annotations and arrows and marginalia in six colors. Aspirationally, all of this information eventually lands in a “neat buffer” consisting of either clear <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span>ed PDF notes, or tidily handwritten pages with meaningful use of color and spatial arrangement.
+      </div>
+      
+    </li>
+<li id="b0509f35a">
+      <div class="list-item">
+        <strong>In time allocation:</strong> I have “ingestion mode” where I write down as much as I can (into the messy buffer) in order to keep up, then “digestion mode” where I go back and slowly work through the messy buffer to figure out what everything means, form all the relevant schematic connections, and produce the neat buffer for posterity.
+      </div>
+      
+    </li>
+<li id="b5dd13657">
+      <div class="list-item">
+        <strong>In self-assessment:</strong> I recently noticed that I feel comfortable saying I “know” something if and only if I’ve finished “digestion mode,” meaning I’ve produced a retrievable neat buffer somewhere—<em>even if I don’t remember any of the material</em> off the top of my head. Conversely, if I just sat through a bunch of lectures and discussions on concept <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span> and haven’t had time to digest, I will always tell you that I don’t “know” <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span>. 
+      </div>
+      
+    </li></ul>
+<div class="text" id="b1727e38d">
+      The messy/neat bifurcation is <a href="https://klr.tumblr.com/post/154784481858/messy-thought-neat-thought">hardly new</a>, especially when it comes to note-taking. But recently I’ve noticed some inadequacies of this framing, with interesting metacognitive implications.
+      <div class="children"></div>
+    </div><h3 id="realization-1-sometimes-the-messy-notes-are-more-useful">
+      <a href="#realization-1-sometimes-the-messy-notes-are-more-useful" class="link">🔗</a>
+      Realization #1: Sometimes the messy notes are more useful
+    </h3>
+<div class="text" id="b02a94695">
+      Theoretically, the messy buffer is supposed to function as a temporary holding area, a place to stash the incoming deluge of bits for future digestion. The neat version of my notes form the “archival version,” if you will—the copy I plan to reference years to come, when I need to page an idea back into memory.
+      <div class="children"></div>
+    </div>
+<div class="text" id="b821d0eb1">
+      Yet I’ve often found myself returning to the messy notes, even years later<em>,</em> over their neatly typeset counterparts. Something about the multicolor chaos and scribbles carries additional information that’s lost in the transition to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span>. With the latter, I end up heavily exercising my (grossly overtaxed) reading comprehension muscles in order to deserialize all those perfect symbols and prose back into something my brain can actually manipulate. By comparison, the messy version feels closer to my brain’s native representation.
+      <div class="children"></div>
+    </div>
+<figure id="b26ba42b4">
+      <img alt="Messy version of some notes on least fixed points" src="https://slim.computer/blug/26ba42b4-c467-4999-a3ed-29489761f651.image.png">
+      <figcaption>Messy version of some notes on least fixed points</figcaption>
+    </figure>
+<figure id="baa64cb05">
+      <img alt="Neatly typeset version of the same notes" src="https://slim.computer/blug/aa64cb05-b62d-4dc6-94a0-cdb88fd9877c.image.png">
+      <figcaption>Neatly typeset version of the same notes</figcaption>
+    </figure>
+<div class="text" id="b181f4fa4">
+      In this regard, typesetting my notes often serves as more of a finger exercise or summative assessment than an inherently-productive milestone. This was not always obvious to me! In my area of computer science, there’s a certain unspoken assumption that ideas aren’t “official” until they are properly typeset. (True maestros develop <a href="https://castel.dev/post/lecture-notes-1/">incredibly impressive</a> setups for live note-taking in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span>; I remain in awe of their prowess.) For a long time I bought into the idea that a beautifully typeset PDF was the apogee of knowledge production. But increasingly I find myself referencing my scribbles instead, where seemingly all the information content lies in the marginalia.
+      <div class="children"></div>
+    </div><h3 id="realization-2-i-know-a-lot-of-things-i-haven-t-consciously-digested">
+      <a href="#realization-2-i-know-a-lot-of-things-i-haven-t-consciously-digested" class="link">🔗</a>
+      Realization #2: I know a lot of things I haven’t consciously digested
+    </h3>
+<div class="text" id="b721a22b6">
+      One might think that ingestion is meaningless on its own, per the aphorism “in one ear and out the other.” Yet when I reflect on my own learning, the <strong>overwhelming majority of concepts never reach digestion</strong>. To be sure, I always <em>tell</em> myself (and others!) I’m going to take another slow pass through the chapter and re-watch all the lectures, but this is the intellectual equivalent of buying a gym membership on January 1. The problem isn’t even motivation—I almost always have a strong intrinsic desire to properly learn the material in question, but in reality I have the executive function of a pigeon who has suffered a non-lethal window crash, and so inevitably all my best-laid intentions get pushed further and further down the docket until they fall away to fester in some accursed cognitive parking lot that will never bear witness to the lights of new urbanism (dense, walkable, interconnected conceptual schema).
+      <div class="children"></div>
+    </div>
+<div class="text" id="b05178380">
+      And yet, from this suburban graveyard, this veritable chop-shop of bicycles for the mind, a heartening paradox arises: <strong>I somehow know a lot more than I think I do</strong><em>.</em> 
+      <div class="children"></div>
+    </div>
+<div class="text" id="b180e9952">
+      I’d guess that I properly digest at most 1%, probably much closer to 0.1%, of all the information I encounter and consider interesting/desirable knowledge. By my own self-assessment, I can only claim to “know” that 0.1-1%. But somehow I feel like my percentage of “useful” knowledge—transferrable ideas, not just memorized definitions—is much closer to 5%, perhaps? Within that delta lies all of the concepts that piqued my interest at some point, that I swore I’d study but never did, but that I somehow find myself incorporating fluidly months or years later, in a way that passes expert scrutiny (modulo terminology).
+      <div class="children"></div>
+    </div>
+<div class="text" id="bf43a6d38">
+      Examples off the top of my head: the transitive closure of a binary relation, deforestation in programming languages, matroids as a generalization of linear independence, how to skate a one-foot glide on ice. All of these were concepts I encountered at some point and never properly absorbed (for lack of time or attention), until one day I invoked the concept without thinking very hard, and realized I understood it well enough to perform near (or far!) transfer.
+      <div class="children"></div>
+    </div>
+<div class="text" id="b28fed672">
+      There’s also a distinct, but related version of this “passive learning” phenomenon, which I frequently experience as follows: 
+      <div class="children"></div>
+    </div>
+<ol id="bf8886857"><li id="b7dc6d55a">
+      <div class="list-item">
+        I’m in a seminar, and someone introduces a concept. It sounds interesting, so I make a note to go over it later, and follow the rest of the talk at the level of vibes only. 
+      </div>
+      
+    </li>
+<li id="b7bd3e279">
+      <div class="list-item">
+        Surprising no one, I do not end up going back over the concept; if you ask me to explain it three months later, I will tell you “I meant to look into this after watching a talk but I never got around to it so I really don’t know.”
+      </div>
+      
+    </li>
+<li id="b41600029">
+      <div class="list-item">
+        Two months later, someone will reference the concept in an unrelated conversation, and I’ll instantly feel a sense of greater intellectual familiarity and comfort than would ever be rationally merited. (Often this “familiarity buff” causes me to retain more of the second conversation, catalyzing a positive feedback loop in my overall learning trajectory.) 
+      </div>
+      
+    </li></ol>
+<div class="text" id="ba45ad6a3">
+      This particular mashup of <a href="https://en.wikipedia.org/wiki/Mere-exposure_effect">mere exposure</a> and <a href="https://en.wikipedia.org/wiki/Frequency_illusion">Baader–Meinhof</a> is not quite as potent as the preceding examples insofar as it’s mostly limited to recognition instead of recall, but I’ve found that lots of people have experienced a similar phenomenon, making it a useful reference point when describing the surprising effectiveness of messy or superficial learning.
+      <div class="children"></div>
+    </div>
+<div class="text" id="b6c246fe8">
+      Though it speaks more to the extent of my neuroticism than anything else, the following unintuitive realization has provided me with untold succor:
+      <div class="children"></div>
+    </div>
+<blockquote>
+      <p><em>I am capable of integrating serious knowledge without a formal “digestive” phase.</em></p>
+      
+    </blockquote>
+<div class="text" id="b9dca61b5">
+      I used to believe that if I never made the time to properly work through a concept, all of that knowledge was lost to me approximately forever. Repeatedly failing to marshal the time and focus for “deep study” made me feel terrible, as if I were wasting or spurning the very insights I’d professed to desire! By contrast, it provides immense comfort to know there’s some background process in my head, diligently working to incorporate disjointed syntax into something with robust meaning. Specifically, this realization has made me (1) way less panicky about missing out on information, because I have faith it will re-emerge when the time is right, and (2) much more appreciative of my brain doing its best, even when I’m deeply frustrated with my own cognitive limitations.
+      <div class="children"></div>
+    </div><h2 id="ok-so-">
+      <a href="#ok-so-" class="link">🔗</a>
+      Ok so?
+    </h2>
+<div class="text" id="b3a3fb9f5">
+      Increasingly I’ve come to recognize that <strong>messy thought serves not only as preparation for neat thought, but has learning value unto itself</strong> for me, and neat thought processes—while satisfying—are not always a prerequisite for proper understanding. For me, this implies the the following corollaries:
+      <div class="children"></div>
+    </div>
+<ul id="bc97dbc13"><li id="bb0fcff08">
+      <div class="list-item">
+        If someone asks for help understanding a parked concept, or if I re-encounter something in my own exploration, I shouldn’t immediately retreat simply because I haven’t had time to digest the prerequisites. It’s important to communicate my uncertainty and lack of expertise, particularly with collaborators, but I can try to make sense of things anyway; often this yields more fruit than my dessicated hopes might expect.
+      </div>
+      
+    </li>
+<li id="b51d8d71e">
+      <div class="list-item">
+        At any point in time, I know more than I think I do. For example, I probably could not formally define a planar graph without stopping to think (assuming “the edges don’t have to cross!” doesn’t count), but I certainly have enough intuition for the associated applications and encodings to be useful in my own original thought. This has been a fairly persuasive (though not foolproof) rejoinder to my self-inflicted impostor syndrome.
+      </div>
+      
+    </li>
+<li id="b8cf3ccd6">
+      <div class="list-item">
+        Don’t throw away the bad notes/scratch; they’re often useful for reconstructing my understanding, even though my perfectionism may attach shame or some other weird moralistic valence to their incomplete form.
+      </div>
+      
+    </li>
+<li id="b01b77875">
+      <div class="list-item">
+        <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> is not the telos. Far transfer is the telos.
+      </div>
+      
+    </li></ul>
+        <footer><label>mentioned in</label><ul><li><a href="https://slim.computer/blug/index.html" class="with-emoji">
+      <img class="emoji" alt="" src="https://slim.computer/blug/1f344.png">
+      Sliminal Zone</a></li></ul></footer>
+      </main>
+      <script>const stylesheet = /** @type {HTMLElement} */ (
+  document.getElementById("prism")
+);
+const toggleBtn = /** @type {HTMLElement} */ (
+  document.getElementById("toggle-btn")
+);
+
+/**
+ * Set the theme to either light or dark.
+ * @param {boolean} isDark
+ */
+function setTheme(isDark) {
+  if (isDark) {
+    localStorage.setItem("theme", "dark");
+    document.body.classList.add("dark");
+    toggleBtn.innerHTML = "☀️";
+    toggleBtn.setAttribute("aria-label", "enable light theme");
+    stylesheet.setAttribute("href", "/prism-tomorrow.css");
+  } else {
+    localStorage.setItem("theme", "light");
+    document.body.classList.remove("dark");
+    toggleBtn.innerHTML = "🌙";
+    toggleBtn.setAttribute("aria-label", "enable dark theme");
+    stylesheet.setAttribute("href", "/prism-coy.css");
+  }
+}
+
+function toggleTheme() {
+  if (localStorage.getItem("theme") === "dark") {
+    setTheme(false);
+  } else {
+    setTheme(true);
+  }
+}
+
+if (!localStorage.getItem("theme")) {
+  const osTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+  localStorage.setItem("theme", osTheme);
+}
+
+toggleBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  toggleTheme();
+});
+setTheme(localStorage.getItem("theme") === "dark");
+</script>
+    </body>
+    </html>
+  ]]></content>
+        <author>
+            <name>Slim Lim</name>
+            <email>slim@sarahlim.com</email>
+            <uri>https://slim.computer</uri>
+        </author>
+    </entry>
+</feed>
